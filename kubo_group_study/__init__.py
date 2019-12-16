@@ -4,7 +4,7 @@ trial test for kubo cookiecutter
 """
 
 # Add imports here
-from .kubo_group_study import *
+from .kubo_group_study import Kubo
 
 # Handle versioneer
 from ._version import get_versions

@@ -6,6 +6,9 @@ Unit and regression test for the kubo_group_study package.
 import kubo_group_study
 import pytest
 import sys
+import numpy as np
+import scipy.fftpack as fourier_transform
+
 
 def test_kubo_group_study_imported():
     """Sample test, will always pass so long as import statement worked"""
