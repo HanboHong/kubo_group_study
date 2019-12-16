@@ -1,0 +1,6 @@
+include LICENSE
+include MANIFEST.in
+include versioneer.py
+
+graft kubo_group_study
+global-exclude *.py[cod] __pycache__ *.so
